@@ -30,7 +30,7 @@ Bu proje tamamen frontend tabanlıdır. Çalıştırmak için şu adımları izl
 
 1. Projeyi klonlayın (veya indirin):
    ```bash
-   git clone https://github.com/KULLANICI_ADI/testers-note.git
+   git clone https://github.com/MuhammedYldz/TestersNote.git
    cd testers-note/frontend
    ```
 

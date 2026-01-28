@@ -1,92 +1,59 @@
 # Testers Note
 
-Testers Note, test uzmanlarının notlarını, bug raporlarını ve test senaryolarını yönetmelerine yardımcı olan bir web uygulamasıdır.
+Testers Note, test uzmanlarının notlarını, bug raporlarını ve test senaryolarını yönetmelerine yardımcı olan modern bir web uygulamasıdır. Veriler tarayıcınızın **Local Storage** alanında güvenle saklanır, kurulum gerektirmez.
 
-## Özellikler
+![Testers Note App](https://via.placeholder.com/800x400?text=Testers+Note+Preview)
 
-- Not oluşturma, düzenleme ve silme
-- Markdown formatında not yazma
-- Kod parçacıkları için syntax highlighting
-- Ekran görüntüsü yükleme
-- Kategorilere göre filtreleme (Bug, Task, Otomasyon, Genel)
-- İlgili task linklerini ekleme
+## 🚀 Özellikler
 
-## Teknolojiler
+- **📝 Zengin Not Alma**: Markdown desteği ile detaylı notlar, bug raporları ve test senaryoları oluşturun.
+- **⚡ Hızlı Şablonlar**: Bug Raporu, Test Case, Otomasyon Notu gibi hazır şablonlarla saniyeler içinde not alın.
+- **🎨 Syntax Highlighting**: Kod blokları için otomatik renklendirme desteği.
+- **🖼️ Görsel Desteği**: Ekran görüntülerini doğrudan yapıştırın veya yükleyin (Base64 formatında saklanır).
+- **💾 Yerel Depolama**: Sunucu kurulumu gerektirmez, tüm verileriniz tarayıcınızda saklanır.
+- **📱 Responsive Tasarım**: Mobil ve masaüstü uyumlu modern arayüz.
+- **🏷️ Kategorilendirme**: Bug, Task, Otomasyon, Fikir gibi kategorilerle notlarınızı düzenleyin.
+- **⏱️ Odak Modu**: Pomodoro sayacı ile verimli çalışma seansları yapın.
 
-### Frontend
-- React.js
-- React Router
-- Axios
-- Tailwind CSS
-- Headless UI
-- React Markdown
+## 🛠️ Teknolojiler
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- Multer (dosya yükleme)
-- Cloudinary (görüntü depolama)
+- **React.js**: Modern UI kütüphanesi
+- **Vite**: Hızlı geliştirme ortamı
+- **Tailwind CSS**: Şık ve esnek stillendirme
+- **Framer Motion**: Akıcı animasyonlar
+- **React Markdown**: Markdown render motoru
+- **Heroicons**: Modern ikon seti
 
-## Kurulum
+## 📦 Kurulum
 
-### Gereksinimler
-- Node.js
-- MongoDB
-- Cloudinary hesabı
+Bu proje tamamen frontend tabanlıdır. Çalıştırmak için şu adımları izleyin:
 
-### Backend Kurulumu
-
-1. Backend klasörüne gidin:
-   ```
-   cd backend
+1. Projeyi klonlayın (veya indirin):
+   ```bash
+   git clone https://github.com/KULLANICI_ADI/testers-note.git
+   cd testers-note/frontend
    ```
 
 2. Bağımlılıkları yükleyin:
-   ```
+   ```bash
    npm install
    ```
 
-3. `.env.example` dosyasını `.env` olarak kopyalayın ve gerekli bilgileri doldurun:
-   ```
-   cp .env.example .env
-   ```
-
-4. Sunucuyu başlatın:
-   ```
-   npm start
-   ```
-
-### Frontend Kurulumu
-
-1. Frontend klasörüne gidin:
-   ```
-   cd frontend
-   ```
-
-2. Bağımlılıkları yükleyin:
-   ```
-   npm install
-   ```
-
-3. `.env.example` dosyasını `.env` olarak kopyalayın ve gerekli bilgileri doldurun:
-   ```
-   cp .env.example .env
-   ```
-
-4. Geliştirme sunucusunu başlatın:
-   ```
+3. Uygulamayı başlatın:
+   ```bash
    npm run dev
    ```
 
-## Kullanım
+4. Tarayıcınızda `http://localhost:5173` adresine gidin.
 
-1. Tarayıcınızda `http://localhost:5173` adresine gidin
-2. "Yeni Not Oluştur" butonuna tıklayarak yeni bir not oluşturun
-3. Notlarınızı kategorilere göre filtreleyebilirsiniz
-4. Notları düzenlemek veya silmek için ilgili butonları kullanın
+## 🤝 Katkıda Bulunma
 
-## Lisans
+1. Forklayın
+2. Feature branch oluşturun (`git checkout -b feature/yeni-ozellik`)
+3. Değişikliklerinizi commit yapın (`git commit -m 'Yeni özellik eklendi'`)
+4. Branch'inizi pushlayın (`git push origin feature/yeni-ozellik`)
+5. Pull Request açın
 
-MIT
+## 📄 Lisans
+
+MIT License
